@@ -1,0 +1,169 @@
+/* Author: adam graham EEData2 */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+img {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+  }
+ /* denna kod används för att placera min bild i mitten under texten och storleken på den */
+
+img:hover{
+  opacity: 0.8;
+}
+/* denna kod är för att göra bilden lite genomskinlig när musen är på en av bilderna eller gifsen */
+
+  h1 {text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+}
+/* denna kod är till för att placera min text i mitten och för att styra font storleken */
+
+body {
+	color:rgb(7, 0, 0);
+	background: rgba(0, 128, 0, 0.1);
+
+} 
+/* denna kod är till för att ge backgrunden på min hemsida en färg av mitt val */
+
+style
+a:link {
+  color: green
+}
+
+a:visited {
+	color: green
+  }
+/*dessa två koder gör så att färgen på linken är grön innan man klickat på den och efter man har klickat på den  */
+
+p {text-align: left; padding: 10px;}
+/* denna kod anväder jag för att placera lorem texten till vänster och ge den lite utrymme från de andra texterna och bilderna på hemsidan */
+
+div {border: 0px solid;}
+/* /* denna kod används för att göra en ruta runt rubriken och en blå linje som markerar vart rutan är  */
+
+#Tva {
+  position: absolute;
+  left: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+#Ett {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+#tre {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.sittimitten {text-align: center;}
+/* dessa 3 koder används för att placera gifsen i både vänster och höger hörn och texten i mellan gifsen, de styr även avstånd och ger en grön markerad ruta runt gifsen och alla använder olika id för att kunna placera de och ändra på de enskiljt. */
+
+
+#Pelle {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+  border: 5px solid black;
+  background-color: red;
+  text-align: center;
+  border-radius: 100px;
+  width: 220px; text-align: center; padding: 35px;
+}
+/* denna kod placerar dessa tecken i mitten, och gör så att jag kan göra diven till en röd oval ruta.  */
+
+table {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+/* denna kod är till för att styra storlek, utrymme och vad för slags skriv stil jag vill ha till min tabell */
+
+h2{
+  text-align: center;
+  text-shadow: 0 0 3px #ff5e00, 0 0 5px #00ff6a;
+}
+/* denna kod är för att positionera rubriken till min tabell och lägga till skuggor och färg till skuggan */
+
+h1 {
+  text-shadow: 3px 3px 6px black;
+}
+/* denna kod är till för lite skugggning på rubrikerna så det blir lite mer levande 3d text*/
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h2{
+  margin-top: 200px;
+  text-decoration: overline;
+  font-family: fantasy;
+}
+
+img {
+margin-top: 15px;
+}
+
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+  align-self: center;
+
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+/* dessa koder är till för detaljerna på min java script animationen så som färg, storlek, position till animationen och knappen */
+
+
+
+/* Referens till eleven: https://www.w3schools.com/css/default.asp */
