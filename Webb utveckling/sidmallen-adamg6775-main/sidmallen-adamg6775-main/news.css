@@ -1,0 +1,92 @@
+/* Author: adam graham EEData2 */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  img:hover{
+    opacity: 0.8;
+  }
+  /* denna kod är för att göra bilden lite genomskinlig när musen är på en av bilderna eller gifsen */
+  
+  h1 {text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+  }
+  /* denna kod är till för att placera min text i mitten och för att styra font storleken */
+  
+  body {
+      color:rgb(7, 0, 0);
+      background: rgba(255, 230, 3, 0.548);
+  
+  } 
+  /* denna kod är till för att ge backgrunden på min hemsida en färg av mitt val */
+  
+  style
+  a:link {
+    color: rgb(4, 20, 250)
+  }
+  
+  a:visited {
+      color: rgb(255, 4, 4)
+    }
+  /*dessa två koder gör så att färgen på linken är grön innan man klickat på den och efter man har klickat på den  */
+  
+  p {text-align: left; padding: 10px;}
+  /* denna kod anväder jag för att placera lorem texten till vänster och ge den lite utrymme från de andra texterna och bilderna på hemsidan */
+  
+  
+  h1 {
+    text-shadow: 3px 3px 6px black;
+  }
+  /* denna kod är till för lite skugggning på rubrikerna så det blir lite mer levande 3d text*/
+  
+  img {
+    margin-top: 15px;
+    }
+  
+  #myContainer {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: rgb(255, 0, 0);
+    align-self: center;
+  
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: rgb(255, 174, 0);
+}
+  /* dessa koder är till för detaljerna på min java script animationen så som färg, storlek, position till animationen och knappen */
+  
+  #rubrik {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block; 
+    border: 5px solid rgb(250, 0, 0);
+    background-color: rgb(2, 0, 0);
+    text-align: center;
+    border-radius: 100px;
+    width: 700px; text-align: center; padding: 15px;
+  }
+  
+  /* Referens till eleven: https://www.w3schools.com/css/default.asp */
